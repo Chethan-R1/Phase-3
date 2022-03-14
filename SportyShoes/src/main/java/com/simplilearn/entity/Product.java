@@ -15,7 +15,7 @@ public class Product {
 	private String productName;
 	private String category;
 	private long price;
-	private Boolean status;
+	private String status;
 	private String size;
 	
 	public Product() {
@@ -46,10 +46,10 @@ public class Product {
 	public void setPrice(long price) {
 		this.price = price;
 	}
-	public Boolean getStatus() {
+	public String getStatus() {
 		return status;
 	}
-	public void setStatus(Boolean status) {
+	public void setStatus(String status) {
 		this.status = status;
 	}
 	public String getSize() {
@@ -63,7 +63,7 @@ public class Product {
 		return "Product [id=" + id + ", productName=" + productName + ", category=" + category + ", price=" + price
 				+ ", status=" + status + ", size=" + size + "]";
 	}
-	public Product(long id, String productName, String category, long price, Boolean status, String size) {
+	public Product(long id, String productName, String category, long price, String status, String size) {
 		super();
 		this.id = id;
 		this.productName = productName;

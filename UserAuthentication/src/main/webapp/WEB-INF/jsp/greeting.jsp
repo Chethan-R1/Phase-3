@@ -8,7 +8,7 @@
 </head>
 <h2>Welcome Page</h2>
 <body>
-you reached the landing page
+Click Here To 
 <a href="Auth">Login</a>
 </body>
 </html>

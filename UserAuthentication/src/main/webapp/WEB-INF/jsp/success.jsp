@@ -7,6 +7,6 @@
 <title>Successful Login Page</title>
 </head>
 <body>
-<h1>Successful Login</h1>
+<h1>Login Success</h1>
 </body>
 </html>

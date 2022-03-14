@@ -10,8 +10,8 @@
 </head>
 <h2>Login Page</h2>
 <body>
-welcome to the authentication page
-
+<h4>welcome to the authentication page</h4>
+<br>
 <form:form action="Auth" method="post" commandName="login">
 	<label for="username"> Username:</label>
 	<input name="username" id="username" type="text" placeholder="Username" required/>

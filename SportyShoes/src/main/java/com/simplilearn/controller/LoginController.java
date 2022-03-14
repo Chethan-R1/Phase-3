@@ -46,26 +46,6 @@ public class LoginController {
 		} 
 	}
 	
-	//@GetMapping("/forgotPassword")
-	//public String update(@ModelAttribute("user") Login user){
-		//Login changepw = userService.updatePassword(user.);
-		//System.out.println(changepw);
-		//if(Objects.nonNull(changepw)) 
-		//{	
-
-			//return "redirect:/";
-
-
-		//} else {
-			//return "redirect:/login";
-
-		//}
-		
-	//}
-	//{
-		
-	//}
-
 
 	@RequestMapping("/logout")
 	public String logoutDo()
@@ -73,37 +53,7 @@ public class LoginController {
 		return "conform_logout";
 	}
 	
-	//@PostMapping("/reset")
-	//public String resetPassword(@ModelAttribute("userchange") Login user) {
-		//System.out.println("form reset");
-		//Boolean changePassword = ls.changePassword(user.getUsername(), user.getPassword());
-		//if(!changePassword) {
-		//	return "usernotfound";
-		//}
-		//return "menu";	
-	//}
 	
-/*	@GetMapping("/forgotpw")
-	public String resetPassword1(@ModelAttribute("change") Login change ) {
-		System.out.println("from login"+ change);
-
-		Boolean oauthUser = ls.changePassword(change.getUsername(), change.getPassword());
-
-
-		System.out.print(oauthUser);
-		if(Objects.nonNull(oauthUser)) 
-		{	
-
-			return "menu";
-
-
-		} else {
-			return "invalid_credentials";
-
-		}
-
-	}
-	*/
 
 }
 

@@ -17,22 +17,22 @@ public class UserDetails extends BaseEntity {
 	public String username;
 	public String emailId;
 	public String phone;
-	public String productPerchased;
-	public Date perchaseDate;
+	public String productPurchased;
+	public Date purchaseDate;
 	public String category;
 	public UserDetails() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public UserDetails(long userId, String username, String emailId, String phone, String productPerchased,
-			Date perchaseDate, String category) {
+	public UserDetails(long userId, String username, String emailId, String phone, String productPurchased,
+			Date purchaseDate, String category) {
 		super();
 		this.userId = userId;
 		this.username = username;
 		this.emailId = emailId;
 		this.phone = phone;
-		this.productPerchased = productPerchased;
-		this.perchaseDate = perchaseDate;
+		this.productPurchased = productPurchased;
+		this.purchaseDate = purchaseDate;
 		this.category = category;
 	}
 	public long getUserId() {
@@ -59,17 +59,17 @@ public class UserDetails extends BaseEntity {
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
-	public String getProductPerchased() {
-		return productPerchased;
+	public String getProductPurchased() {
+		return productPurchased;
 	}
-	public void setProductPerchased(String productPerchased) {
-		this.productPerchased = productPerchased;
+	public void setProductPurchased(String productPurchased) {
+		this.productPurchased = productPurchased;
 	}
-	public Date getPerchaseDate() {
-		return perchaseDate;
+	public Date getPurchaseDate() {
+		return purchaseDate;
 	}
-	public void setPerchaseDate(Date perchaseDate) {
-		this.perchaseDate = perchaseDate;
+	public void setPurchaseDate(Date purchaseDate) {
+		this.purchaseDate = purchaseDate;
 	}
 	public String getCategory() {
 		return category;
@@ -80,7 +80,7 @@ public class UserDetails extends BaseEntity {
 	@Override
 	public String toString() {
 		return "UserDetails [userId=" + userId + ", username=" + username + ", emailId=" + emailId + ", phone=" + phone
-				+ ", productPerchased=" + productPerchased + ", perchaseDate=" + perchaseDate + ", category=" + category
+				+ ", productPurchased=" + productPurchased + ", purchaseDate=" + purchaseDate + ", category=" + category
 				+ "]";
 	}
 	
